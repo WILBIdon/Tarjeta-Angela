@@ -1,5 +1,7 @@
+<!-- Tarjeta de presentación Ángela Chavarría -->
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +9,9 @@
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Fuentes Google: Playfair Display (Elegante) y Lato (Lectura) -->
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+        rel="stylesheet">
     <!-- Iconos FontAwesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
@@ -35,18 +39,29 @@
             border-radius: 42% 58% 70% 30% / 45% 45% 55% 55%;
             transition: all 0.5s ease;
         }
+
         .blob-shape:hover {
             border-radius: 58% 42% 30% 70% / 55% 55% 45% 45%;
         }
+
         .fade-in {
             animation: fadeIn 1.5s ease-in-out;
         }
+
         @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(20px); }
-            to { opacity: 1; transform: translateY(0); }
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
         }
     </style>
 </head>
+
 <body class="bg-rose-light text-text-primary antialiased selection:bg-rose-brand selection:text-white">
 
     <!-- Navbar Simple -->
@@ -54,34 +69,38 @@
         <div class="text-2xl font-serif font-bold text-rose-dark tracking-wide">
             Ángela C.
         </div>
-        <a href="https://wa.me/573160536542?text=Hola%20Ángela,%20me%20interesa%20conocer%20más%20sobre%20tus%20terapias." 
-           class="hidden md:inline-block border border-rose-brand text-rose-dark px-6 py-2 rounded-full hover:bg-rose-brand hover:text-white transition duration-300 text-sm uppercase tracking-widest font-semibold">
+        <a href="https://wa.me/573160536542?text=Hola%20Ángela,%20me%20interesa%20conocer%20más%20sobre%20tus%20terapias."
+            class="hidden md:inline-block border border-rose-brand text-rose-dark px-6 py-2 rounded-full hover:bg-rose-brand hover:text-white transition duration-300 text-sm uppercase tracking-widest font-semibold">
             Contactar
         </a>
     </nav>
 
     <!-- Hero Section -->
     <header class="max-w-6xl mx-auto px-4 md:px-12 py-8 md:py-16 flex flex-col md:flex-row items-center gap-12">
-        
+
         <!-- Contenido Texto -->
         <div class="w-full md:w-1/2 space-y-6 fade-in order-2 md:order-1 text-center md:text-left">
-            <span class="text-gold-accent font-bold tracking-widest uppercase text-xs md:text-sm bg-white px-3 py-1 rounded-md shadow-sm">
+            <span
+                class="text-gold-accent font-bold tracking-widest uppercase text-xs md:text-sm bg-white px-3 py-1 rounded-md shadow-sm">
                 Especialista en Neurodesarrollo
             </span>
             <h1 class="text-4xl md:text-5xl lg:text-6xl font-serif text-gray-800 leading-tight">
                 Guiando pequeños pasos hacia <span class="text-rose-dark italic">grandes logros</span>
             </h1>
             <p class="text-lg text-gray-600 leading-relaxed">
-                Soy <strong>Ángela Chavarría</strong>, Maestra especializada en Terapia ABA. Mi misión es crear puentes de aprendizaje para niños con autismo y dificultades del neurodesarrollo, brindando herramientas personalizadas que transforman desafíos en oportunidades de crecimiento.
+                Soy <strong>Ángela Chavarría</strong>, Maestra especializada en Terapia ABA. Mi misión es crear puentes
+                de aprendizaje para niños con autismo y dificultades del neurodesarrollo, brindando herramientas
+                personalizadas que transforman desafíos en oportunidades de crecimiento.
             </p>
-            
+
             <div class="flex flex-col sm:flex-row gap-4 justify-center md:justify-start pt-4">
-                <a href="https://wa.me/573160536542?text=Hola%20Ángela,%20quisiera%20agendar%20una%20consulta." 
-                   class="bg-rose-dark text-white px-8 py-3 rounded-full shadow-lg shadow-rose-200 hover:bg-gray-800 transition transform hover:-translate-y-1 flex items-center justify-center gap-2">
+                <a href="https://wa.me/573160536542?text=Hola%20Ángela,%20quisiera%20agendar%20una%20consulta."
+                    class="bg-rose-dark text-white px-8 py-3 rounded-full shadow-lg shadow-rose-200 hover:bg-gray-800 transition transform hover:-translate-y-1 flex items-center justify-center gap-2">
                     <i class="fab fa-whatsapp text-xl"></i>
                     <span>Agendar Cita</span>
                 </a>
-                <a href="#servicios" class="text-rose-dark px-8 py-3 rounded-full border border-rose-200 hover:bg-white transition flex items-center justify-center">
+                <a href="#servicios"
+                    class="text-rose-dark px-8 py-3 rounded-full border border-rose-200 hover:bg-white transition flex items-center justify-center">
                     Ver Servicios
                 </a>
             </div>
@@ -92,17 +111,17 @@
             <!-- Elementos decorativos de fondo -->
             <div class="absolute -top-4 -right-4 w-24 h-24 bg-rose-brand opacity-20 rounded-full blur-xl"></div>
             <div class="absolute -bottom-4 -left-4 w-32 h-32 bg-gold-accent opacity-10 rounded-full blur-xl"></div>
-            
+
             <div class="relative w-72 h-72 md:w-96 md:h-96">
                 <!-- Marco de la imagen -->
                 <div class="absolute inset-0 border-2 border-rose-brand rounded-[2rem] transform rotate-3"></div>
                 <!-- Imagen Principal -->
-                <div class="absolute inset-0 bg-white rounded-[2rem] shadow-2xl overflow-hidden transform -rotate-2 hover:rotate-0 transition duration-500">
+                <div
+                    class="absolute inset-0 bg-white rounded-[2rem] shadow-2xl overflow-hidden transform -rotate-2 hover:rotate-0 transition duration-500">
                     <!-- Intenta cargar la imagen subida, si falla usa un placeholder elegante -->
-                    <img src="AngelaC.jpeg" 
-                         onerror="this.src='https://images.unsplash.com/photo-1544717305-2782549b5136?ixlib=rb-4.0.3&auto=format&fit=crop&w=687&q=80'; this.parentElement.classList.add('grayscale-[20%]')"
-                         alt="Ángela Chavarría - Terapeuta" 
-                         class="w-full h-full object-cover">
+                    <img src="AngelaC.jpeg"
+                        onerror="this.src='https://images.unsplash.com/photo-1544717305-2782549b5136?ixlib=rb-4.0.3&auto=format&fit=crop&w=687&q=80'; this.parentElement.classList.add('grayscale-[20%]')"
+                        alt="Ángela Chavarría - Terapeuta" class="w-full h-full object-cover">
                 </div>
             </div>
         </div>
@@ -113,37 +132,44 @@
         <div class="max-w-4xl mx-auto px-6 text-center">
             <h2 class="text-3xl md:text-4xl font-serif text-gray-800 mb-4">¿Cómo puedo ayudarte?</h2>
             <div class="w-24 h-1 bg-rose-brand mx-auto mb-10"></div>
-            
+
             <p class="text-gray-600 mb-12 text-lg leading-relaxed">
-                El Análisis de Comportamiento Aplicado (ABA) es una metodología basada en la evidencia científica. Mi enfoque no es solo clínico, es <strong>humano</strong>. Trabajo mano a mano con las familias para:
+                El Análisis de Comportamiento Aplicado (ABA) es una metodología basada en la evidencia científica. Mi
+                enfoque no es solo clínico, es <strong>humano</strong>. Trabajo mano a mano con las familias para:
             </p>
 
             <div class="grid md:grid-cols-3 gap-8">
                 <!-- Card 1 -->
                 <div class="p-6 rounded-2xl bg-rose-light hover:shadow-lg transition duration-300">
-                    <div class="w-12 h-12 bg-white rounded-full flex items-center justify-center mx-auto mb-4 text-rose-dark shadow-sm">
+                    <div
+                        class="w-12 h-12 bg-white rounded-full flex items-center justify-center mx-auto mb-4 text-rose-dark shadow-sm">
                         <i class="fa-solid fa-puzzle-piece"></i>
                     </div>
                     <h3 class="font-serif text-xl font-bold mb-2 text-gray-800">Autismo (TEA)</h3>
-                    <p class="text-sm text-gray-600">Estrategias para mejorar la comunicación, socialización y reducir conductas desafiantes.</p>
+                    <p class="text-sm text-gray-600">Estrategias para mejorar la comunicación, socialización y reducir
+                        conductas desafiantes.</p>
                 </div>
 
                 <!-- Card 2 -->
                 <div class="p-6 rounded-2xl bg-rose-light hover:shadow-lg transition duration-300">
-                    <div class="w-12 h-12 bg-white rounded-full flex items-center justify-center mx-auto mb-4 text-rose-dark shadow-sm">
+                    <div
+                        class="w-12 h-12 bg-white rounded-full flex items-center justify-center mx-auto mb-4 text-rose-dark shadow-sm">
                         <i class="fa-solid fa-graduation-cap"></i>
                     </div>
                     <h3 class="font-serif text-xl font-bold mb-2 text-gray-800">Dificultades de Aprendizaje</h3>
-                    <p class="text-sm text-gray-600">Apoyo personalizado para superar barreras académicas y fortalecer la confianza del niño.</p>
+                    <p class="text-sm text-gray-600">Apoyo personalizado para superar barreras académicas y fortalecer
+                        la confianza del niño.</p>
                 </div>
 
                 <!-- Card 3 -->
                 <div class="p-6 rounded-2xl bg-rose-light hover:shadow-lg transition duration-300">
-                    <div class="w-12 h-12 bg-white rounded-full flex items-center justify-center mx-auto mb-4 text-rose-dark shadow-sm">
+                    <div
+                        class="w-12 h-12 bg-white rounded-full flex items-center justify-center mx-auto mb-4 text-rose-dark shadow-sm">
                         <i class="fa-solid fa-hands-holding-child"></i>
                     </div>
                     <h3 class="font-serif text-xl font-bold mb-2 text-gray-800">Terapia Conductual</h3>
-                    <p class="text-sm text-gray-600">Modificación de conducta positiva centrada en el refuerzo y el bienestar emocional.</p>
+                    <p class="text-sm text-gray-600">Modificación de conducta positiva centrada en el refuerzo y el
+                        bienestar emocional.</p>
                 </div>
             </div>
         </div>
@@ -158,7 +184,8 @@
                 <a href="tel:+573160536542" class="text-xl font-bold hover:text-rose-200 transition">
                     +57 316 053 6542
                 </a>
-                <a href="https://wa.me/573160536542" class="mt-4 bg-white text-rose-dark px-10 py-3 rounded-full font-bold hover:bg-gray-100 transition shadow-lg inline-flex items-center gap-2">
+                <a href="https://wa.me/573160536542"
+                    class="mt-4 bg-white text-rose-dark px-10 py-3 rounded-full font-bold hover:bg-gray-100 transition shadow-lg inline-flex items-center gap-2">
                     <i class="fab fa-whatsapp"></i> Escribir por WhatsApp
                 </a>
             </div>
@@ -169,4 +196,5 @@
     </footer>
 
 </body>
+
 </html>
